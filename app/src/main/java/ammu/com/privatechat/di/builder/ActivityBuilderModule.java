@@ -1,6 +1,6 @@
 package ammu.com.privatechat.di.builder;
 
-import ammu.com.privatechat.views.activities.MainActivity;
+import ammu.com.privatechat.views.activities.LaunchScreen;
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
 
@@ -16,7 +16,7 @@ public abstract class ActivityBuilderModule {
 
     @SuppressWarnings("unused")
     @ContributesAndroidInjector(modules = FragmentBuilderModule.class)
-    abstract MainActivity mainActivity();
+    abstract LaunchScreen mainActivity();
 
 
 }

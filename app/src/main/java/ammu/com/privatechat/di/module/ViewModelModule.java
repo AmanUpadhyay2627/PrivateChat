@@ -3,7 +3,9 @@ package ammu.com.privatechat.di.module;
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 
-import ammu.com.privatechat.views.viewmodel.SplashViewModel;
+import ammu.com.privatechat.views.login.LoginViewModel;
+import ammu.com.privatechat.views.register.RegisterViewModel;
+import ammu.com.privatechat.views.splash.SplashViewModel;
 import ammu.com.privatechat.views.viewmodel.ViewModelFactory;
 import dagger.Binds;
 import dagger.Module;
@@ -24,7 +26,19 @@ public abstract class ViewModelModule {
     @IntoMap
     @ViewModelKey(SplashViewModel.class)
     @SuppressWarnings("unused")
-    abstract ViewModel bindsSplashViewModel(SplashViewModel articleListViewModel);
+    abstract ViewModel bindsSplashViewModel(SplashViewModel splashViewModel);
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(LoginViewModel.class)
+    @SuppressWarnings("unused")
+    abstract ViewModel bindsLoginViewModel(LoginViewModel loginViewModel);
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(RegisterViewModel.class)
+    @SuppressWarnings("unused")
+    abstract ViewModel bindsRegisterViewModel(RegisterViewModel registerViewModel);
 
 
     @Binds

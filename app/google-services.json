@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1012742841572",
+    "firebase_url": "https://private-chat-23b54.firebaseio.com",
+    "project_id": "private-chat-23b54",
+    "storage_bucket": "private-chat-23b54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012742841572:android:b1a61c9774ec387e",
+        "android_client_info": {
+          "package_name": "ammu.com.privatechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012742841572-6nei6sl3s784u88ffg29d98e71rmrovt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ammu.com.privatechat",
+            "certificate_hash": "a53c2074c41682de0afedb990a4592ae81e5ab3c"
+          }
+        },
+        {
+          "client_id": "1012742841572-14d86v6qqe28d2b58b6l9gsq9mtjdecv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzd64cKJKvGwRooxJy_qIMSt1SlJpTYAU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012742841572-14d86v6qqe28d2b58b6l9gsq9mtjdecv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

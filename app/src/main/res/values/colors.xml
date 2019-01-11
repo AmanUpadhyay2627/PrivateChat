@@ -1,6 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="primaryColor">#232a35</color>
+    <color name="primaryColorDark">#0288D1</color>
+    <color name="accentColor">#727272</color>
+    <color name="accentColorRipple">#1b1e26</color>
+    <color name="primaryColorLight">#B3E5FC</color>
+    <color name="textColor">#727272</color>
+
+    <color name="tab_selected">#cdcd00</color>
+    <color name="tab_unselected">#ffffff</color>
+
+    <color name="selectorColor">#20acf6</color>
+    <color name="bg_color">#1b1e26</color>
+    <color name="primaryText">#205171</color>
+    <color name="secondaryColor">#a8aab4</color>
+    <color name="secondaryColor_text">#61839a</color>
+    <color name="dividerColor">#cccccc</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="blue_button">#579df9</color>
+    <color name="text_color_gray">#7c818b</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_semitrans">#90cccccc</color>
+    <color name="final_green">#55bc77</color>
+    <color name="final_green_trans">#6055bc77</color>
+    <color name="final_blue_semitrans">#6055bc77</color>
+    <color name="color_accent">#7c4dff</color>
+    <color name="color_success">#3CCD88</color>
+    <color name="color_error">#f44336</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_700">#303f9f</color>
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+
+    <color name="cyan_500">#00bcd4</color>
+    <color name="fragment_background_color">#E5E5E5</color>
+    <color name="dark_grey">#7e7e7d</color>
+    <color name="bg_color_frag">#f3f3f3</color>
+
+    <color name="drawerlist_background_normal">#ffffff</color>
+    <color name="drawerlist_background_selected">#e1e1e1</color>
+
+    <color name="drawerlist_text_color">#9a9581</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+
+    <color name="black_transparent">#80080704</color>
+    <color name="black_extra_transparent">#50080704</color>
+    <color name="message_top_button_unclicked">#ffffff</color>
+    <color name="message_top_text_unclicked">#7b818b</color>
+    <color name="light_gray">#ff828282</color>
+    <color name="dark_red">#ff563b</color>
+    <color name="dark_red_trans">#60ff563b</color>
+    <color name="gray_light">#F5F5DC</color>
+    <color name="main_bg">#6E6E82</color>
+    <color name="show_bg">#DADADA</color>
+    <color name="grey_light">#60cdcdcd</color>
+    <color name="font_top">#717285</color>
+    <color name="yellow_white">#FFAE00</color>
+    <color name="wheat">#f5deb3</color>
+    <color name="font_color">#6E6E82</color>
+    <color name="text_color">#ffffff</color>
+    <color name="songCurrentDurationLabel_tv_textcolor">#eeeeee</color>
+    <color name="horizontal_color">#0052b1</color>
+    <color name="songTotalDurationLabel_tv_textcolor">#04cbde</color>
+    <color name="case_zone_font_color">#00959E</color>
+    <color name="prarent_half">#b0000000</color>
+    <color name="button_unpressed_gray">#666666</color>
+    <color name="alpha_background_color">#104b9ed1</color>
+    <color name="background_color">#006e85</color>
+    <color name="dark_yellow">#AD652F</color>
+    <color name="azure">#515078</color>
+    <color name="scroll_view_bg_color">#62B2E5</color>
+    <color name="blue">#0076AF</color>text_gray
+    <color name="setting_bule">#0076AD</color>
+    <color name="gray_bg">#E1E1E1</color>
+    <color name="tab_head_text_color">#1C77B3</color>
+    <color name="chat_room_bg">#0086ff</color>
+    <color name="backgroundcolor">#fff1f1f1</color>
+    <color name="gray">#EEEEE0</color>
+    <color name="background">#E4E2DF</color>
+    <color name="white">#ffffff</color>
+    <color name="project_green">#12c257</color>
+    <color name="project_green_clicked">#65B239</color>
+    <color name="project_yellow">#FFFF00</color>
+    <color name="follow_unselected">#d2d2d2</color>
+    <color name="follow_selected">#bababa</color>
+    <color name="white_transparent">#ffffff</color>
+    <color name="login_background">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="review_header">#f0f0e1</color>
+    <color name="group_nomal">#333333</color>
+    <color name="group_select">#45afea</color>
+    <color name="transparent">#00000000</color>
+    <color name="tab_head_gbcolor">#F1F2F4</color>
+    <color name="blue_banner_color">#318ef7</color>
+    <color name="chat_window_bg">#ededed</color>
+    <color name="list_tint_bg">#dfdfdf</color>
+    <color name="list_dark_bg">#c9c9c9</color>
+    <color name="list_double_item">#D7D7D7</color>
+    <color name="red">#318ef7</color>
+
+
+    <color name="light_blue">#55bc77</color>
+    <color name="light_grey">#7e7e7d</color>
+
+    <color name="light_grey_trans">#907e7e7d</color>
+    <color name="red_trans">#2693ff</color>
+    <color name="red2">#FF5400</color>
+
+    <color name="text_gray">#CDCBCA</color>
+    <color name="gray_bg_photo">#CDCBCA</color>
+    <color name="green">#009E3C</color>
+    <color name="title_bg">#F2F2F3</color>
+    <color name="back">#00E5FF</color>
+    <color name="text_color_blue">#000000</color>
+    <color name="gold">#b89766</color>
+    <color name="raw_yellow">#ffc926</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#0059b2</color>
+    <color name="list_background_pressed">#e1e1e1</color>
+    <color name="list_divider">#80DADADA</color>
+    <color name="counter_text_bg">#FFD700</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="action_bar_color">#0052b2</color>
+    <color name="blue_chat_bg">#2899ff</color>
+
+    <color name="background_popup">#EBEDED</color>
+
 </resources>

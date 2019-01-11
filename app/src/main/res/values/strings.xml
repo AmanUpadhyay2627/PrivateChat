@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Private Chat</string>
+    <string name="r_e_g_i_s_t_e_r">Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register_now">Register now</string>
+    <string name="not_a_member_yet">Not a member yet?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="display_name">Display Name</string>
 </resources>

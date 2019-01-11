@@ -6,7 +6,7 @@
 
         <variable
             name="splashViewModel"
-            type="ammu.com.privatechat.views.viewmodel.SplashViewModel" />
+            type="ammu.com.privatechat.views.splash.SplashViewModel" />
     </data>
 
     <TextView

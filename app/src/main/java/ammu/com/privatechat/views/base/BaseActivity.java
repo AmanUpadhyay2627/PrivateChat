@@ -1,5 +1,6 @@
 package ammu.com.privatechat.views.base;
 
+import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
 import android.os.Bundle;
@@ -36,6 +37,11 @@ public abstract class BaseActivity<D extends ViewDataBinding> extends AppCompatA
     @Override
     public AndroidInjector<Fragment> supportFragmentInjector() {
         return fragmentAndroidInjector;
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }
 

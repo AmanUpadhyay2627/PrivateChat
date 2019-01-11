@@ -1,6 +1,8 @@
 package ammu.com.privatechat.di.builder;
 
-import ammu.com.privatechat.views.fragments.SplashFragment;
+import ammu.com.privatechat.views.login.LoginFragment;
+import ammu.com.privatechat.views.register.RegisterFragment;
+import ammu.com.privatechat.views.splash.SplashFragment;
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;
 
@@ -17,4 +19,12 @@ public abstract class FragmentBuilderModule {
     @SuppressWarnings("unused")
     @ContributesAndroidInjector
     abstract SplashFragment contributeSplashFragment();
+
+    @SuppressWarnings("unused")
+    @ContributesAndroidInjector
+    abstract LoginFragment contributeLoginFragment();
+
+    @SuppressWarnings("unused")
+    @ContributesAndroidInjector
+    abstract RegisterFragment contributeRegisterFragment();
 }
